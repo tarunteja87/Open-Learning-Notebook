@@ -13,7 +13,7 @@ some basic GIT commands
 - `git checkout <branch_name>` Switch to a specific branch.
 - `git mege <branch_name>` Merge a branch into current brnach.
 
-## Rermote Repositories
+## Remote Repositories
 - `git remote add origin <url>` Link to a remote repository.
 - `git push origin <branch>` Push changes to the remote repository.
 - `git pull origin <branch>` Fetch and mergr changes from the remote repository.
