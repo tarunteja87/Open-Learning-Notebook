@@ -1,0 +1,2 @@
+# How to create .md file 
+> official Documentation to create .md file [Documentation link](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
