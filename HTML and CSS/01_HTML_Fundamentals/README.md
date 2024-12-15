@@ -54,7 +54,7 @@
 
 ## Images and attributes
 
-> <img src="/folder/file.format" alt = "about the image" width = "500" height ="200">
+> `<img src="/folder/file.format" alt = "about the image" width = "500" height ="200">`
 
 src and alt are called as attributes
 - alt stands for alternative text , its very important for SEO
@@ -71,27 +71,27 @@ src and alt are called as attributes
 
 ## Hyperlinks
 
-> <a href="url">click here<a>
+> `<a href="url">click here<a>`
 
 open in newtab
 
-> <a href='url' target='_blank'>click here</a>
+> `<a href='url' target='_blank'>click here</a>`
 
 use `#` for empty href
 
 ## Page structuring
 
-> <nav></nav>
-> <header></header>
-> <article></article>
-> <footer></footer>
-> <aside></aside> secondary content or information
+> `<nav></nav>`
+> `<header></header>`
+> `<article></article>`
+> `<footer></footer>`
+> `<aside></aside>` secondary content or information
 
 ## copyright symbol
 
 html entity
 
-> &copy;
+> `&copy;` &copy;
 
 ## Semantic HTML
 represents a meaning - all pages structuring are comes under semantic html
