@@ -147,8 +147,59 @@ a:hover
 a:active
 
 L  V  H  A - order
+Link - Visited - Hover - Action
 ```
 
 ## Using Chrome Dev tools
+-  Inspect 
+- hover
+
+## CSS Theory 1 -CONFLICTS BETWEEN Selectors
+- what happen when multiple css rules applied to a element
+
+```
+<p id="author-text" class= "author">
+    posted by Tarun teja on 16-12-2024
+</p>
+```
+
+```
+.author {
+    font-style : italic;
+    font-size : 18px;
+}
+
+#author-text {
+    font-size : 20px;
+}
+
+p, li {
+    font-family : san-serif;
+    color : #444444
+    font-size :22px;
+}
+```
+> * There are multiple selectors selecting the same element . Which one of them applies? *
+  All of them. All rules and properties are applied !
+
+- ~ Highest priority   to   Lowest priority ~
+> ```
+  5. Declarations marked !important
+  4. Inline style (style attribute in HTML)
+  3. ID (#) selector
+  2. Class (.) or pseudo-class (:) selector
+  1. Element selector (p,div,li,etc.)
+  0. Universal selector (*)
+  ```
+  if Multiple - Last selector in code applies
+
+> if you add `!important` for any of the property - then the priority is very high
+  
 
 
+##  CSS Theory 2 - INHERITANCE and universal Selector
+
+- some properties are inherited from the main element 
+  eg: if a color property added to body will apply to all the elements present in the body
+- only few properties will inherit (mostly related to text will inherits
+)  
