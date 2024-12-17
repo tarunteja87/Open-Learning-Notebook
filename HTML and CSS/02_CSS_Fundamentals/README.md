@@ -191,11 +191,9 @@ p, li {
   1. Element selector (p,div,li,etc.)
   0. Universal selector (*)
   ```
-  if Multiple - Last selector in code applies
+if Multiple - Last selector in code applies
 
 > if you add `!important` for any of the property - then the priority is very high
-  
-
 
 ##  CSS Theory 2 - INHERITANCE and universal Selector
 
