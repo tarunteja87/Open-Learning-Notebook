@@ -183,7 +183,7 @@ p, li {
   All of them. All rules and properties are applied !
 
 - ~ Highest priority   to   Lowest priority ~
-> ```
+  ```
   5. Declarations marked !important
   4. Inline style (style attribute in HTML)
   3. ID (#) selector
