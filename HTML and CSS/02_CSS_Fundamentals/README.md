@@ -201,3 +201,145 @@ if Multiple - Last selector in code applies
   eg: if a color property added to body will apply to all the elements present in the body
 - only few properties will inherit (mostly related to text will inherits
 )  
+
+## CSS BOX MODEL (IMP)
+- **CONTENT** : Text , images,etc.
+- **Border** : A line around the element , still inside of the element.
+- **Padding** : Invisible space around the content , inside of the element.
+- **Margin** : Space outside element , between elements
+- **FillArea** : Area that gets filled with background color or background image
+
+### Height and width calculation
+- **Final element width** = left border + left padding + width + right padding + right border
+- **Final element height** = top border + top padding + height + bottom padding + bottom border
+## Margins and padding
+```
+padding :50px ;
+padding-left : 10px;
+padding-right : 20px;
+padding-top : 20px;
+padding-buttom : 30px;
+```
+
+- shot hand 
+
+``` padding : 20px; /* applies to all the sides */ 
+    
+    padding : top&bottom  left&right;
+    
+    top  right  buttom left
+
+    top left&right buttom
+```
+
+#### Reset all the default margins and paddings 
+ ``` * {  
+            margin :0;
+            padding  : 0;
+         }
+ ```
+ #### margin Collapsing
+consider two elements 
+ - element 1   and element 2
+ lets say element 1 having bottom margin of 20px  and element 2 having top margin of 20px , then the distance between element 1 and element 2 is 20px but not 40px
+
+## Adding Dimensions
+> width : 500px;
+  Height : 100px;
+
+  height : auto;
+  width : 100%; /* responsiveness */
+
+## Centring page
+> a  trick to center a page is put all the content you want to center in a container
+  
+  ``` .container{
+    width : 700px;
+    margin-left :auto ;
+    margin-right : auto;
+  }
+   ```
+> we can't add margins for small elements like `a`. 
+
+## Types of boxes
+### Block-level boxes
+> - Elements formatted visually as blocks 
+  - 100% of parents width
+  - vertically , one after another
+  - Box-model applies as showed
+  - to change any elemnet to block use   `display : block;`
+### Inline Boxes
+> - Occupies only content's space
+  - cause no line - breaks
+  - Box model is different :height and widths do not apply
+  - paddings and margins only horizontal (left and right)
+  - to change any element to inline - use `display : inline`
+### Inline - Block Boxes
+> - Looks like inline from the **outside** , behaves like block -level  on the **inside**
+  - Occupies only content's space
+  - cause no line - break 
+  - box model applies as showed
+  - `display : inline-block`
+
+> you can chane any two pseduo classes as mentioned `a:link:lastchild {   }`
+
+- `img` is a `inline-block` element
+
+## Absloute postioning (very important)
+### Normal Flow
+- Default positioning
+- Element is **in** flow
+- elements are simply laid out according to the  HTML code
+> position : relative
+
+### Adsloute positioning
+- element is removed from the normal flow :**Out of flow**
+- No impact on surrounding elements ,might overlap them
+- we use Top , bottom , left , or right to offset the element  from its **relatively positioned container**
+> position : absolute;
+  top : 0
+  buttom : 0
+  left :0
+  right :0+
+
+> to use adbloute - the parent positioin should be relative
+
+- we use absloute positioning for single elements like chat bot at corner.
+
+## Pseudo elements
+- pseudo elements are essiential elements that doesnt exists in the HTML but still we can select and style in css.
+> eg :first letter of a paragraph or file line of a paragraph
+ ```
+ h1::first-letter{
+    font-style: normal;
+    margin-right :5px;
+ }
+p::first-line{
+    color:red;
+}
+```
+Adjacent elements 
+
+```
+h3 + p::first-line{
+    color : red /* change p color adj to h3 */
+}
+```
+top post label 
+```
+h1::after{
+    content : "TOP";
+    background-color : ffe70;
+    font-size:16px ;
+    font-weight : bold ;
+    display : inline-block;
+    position : absloute;
+    top : -5px;
+}  
+```
+## Developer Skills : Googling  and Reading Documentation
+- use `css property to add a mouse cursor to a button` stack overflow.com 
+- css-tricks.com
+- MDN Documentation
+
+
