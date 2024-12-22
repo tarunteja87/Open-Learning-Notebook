@@ -443,3 +443,16 @@ lets consider a main container having 5 sub container , if we apply the `display
 
 
 ### Flex property
+
+- Default values 
+```
+flex-grow : 0;
+flex-shrink : 1;
+flex-basis : auto;
+```
+
+flex-basis gives a width to the item - by default its auto.
+
+flex-grow gives the same width to all elements.
+
+flex shrink helps to fit the elements in the container.
