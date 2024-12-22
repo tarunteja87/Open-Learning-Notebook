@@ -427,6 +427,19 @@ lets consider a main container having 5 sub container , if we apply the `display
  5. flex-wrap :nowrap , wrap , wrap reverse - to allow items to wrap into a new line if they are too large
  6. align-content :stretch , flex-start, flex-end, center , space-between , space-around - only applies when there are multiple lines (flex-wrap:wrap)
 
- >flex item
- 1. 
+>flex item
+1. `align-self:auto` | stretch | flex-start | flex-end | center | baseline
+   - to overwrite a align-items for individual flex items
+2. `flex-grow:0` | <integer>
+  - to allow an element to grow(0 means no , 1+ means yes)
+3. `flex-shrink`:1 | <integer>
+  - to allow an element to shrink (0 means no , 1+ means yes)
+4. `flex-basis : auto` | <length>
+  - to define an items width, instead of the width property
+5. `flex : 0 1 auto`
+  - recomended shorthand for flex-grow , -shrink , -basis
+6. `order:0`
+  - controls order of items . -1 makes item first, 1 makes it last 
 
+
+### Flex property
