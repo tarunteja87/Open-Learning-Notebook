@@ -454,5 +454,6 @@ flex-basis : auto;
 flex-basis gives a width to the item - by default its auto.
 
 flex-grow gives the same width to all elements.
+if flex-grow is applied to a single element then the remaing space will be filled by this element.
 
 flex shrink helps to fit the elements in the container.
