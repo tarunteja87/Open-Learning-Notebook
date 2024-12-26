@@ -491,7 +491,37 @@ row-gap :30px;
 
 - grid lines 
 - grid cells
-- gutters
-- grid tracks/column
+- gutters - empty space
+- grid tracks/column - can be a row or a column is called grid track
   
+
+### Grid Container
+- grid-template-rows : <track size>
+- grid-template-columns : <track size>
+
+to establish the grid row and column  tracks . one length unit for each track , any unit can be used, new fr fills unused space 
+
+- row-gap :0
+- column-gap :0
+to create empty space between tracks
+
+- justify-items :stretch | start | center | end
+- align-items : stretch | start | center | end
+to align items inside rows /columns (horizontally / vertically)
+
+- Justify-content :Start | center | end
+- align-content : start | center | end
+To align entire grid inside grid container .Only applies if container is larger than the grid
+
+### Grid Items
+- grid-column : <start line> /<end line> | span number
+- grid-row : start line / end line | span
+to place a grid item into a specific cell, based on line numbers. span keyword can be used to span an item across more cells
+
+- justify-self :stretch | start | center | end
+- align-self : stretch | start | center | end
+to overwrite justify-items/align-items for single items
+
+### sizing grid columns and rows
+using new unit called fractional - instead of using px - it will occupy all the remaining space in the given container .
 
