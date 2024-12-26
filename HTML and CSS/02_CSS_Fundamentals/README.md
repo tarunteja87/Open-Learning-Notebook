@@ -457,3 +457,41 @@ flex-grow gives the same width to all elements.
 if flex-grow is applied to a single element then the remaing space will be filled by this element.
 
 flex shrink helps to fit the elements in the container.
+
+short-had ``flex : flex-grow flex-shrink  flex-basis`
+
+## CSS GRID
+`display:none` completely removes the element
+
+same like flex-container and flex-item  | CSS grid also contains grid-container and grid-items
+
+
+`display:grid`
+
+```
+display:grid;
+grid-template-colums: 200px 200px 200px 200px;
+grid-template-rows:200px 200px 200px 200px;
+gap:30px;
+column-gap :30px;
+row-gap :30px;
+```
+
+- CSS grid is a set of CSS property for bulding 2-dimensional layouts
+- the main idea behind CSS Grid is that divide a container element into rows and columns that can be filled with its child elements
+- In two-dimensional contexts, CSS grid allows to write less nested HTML and easier to end CSS
+- CSS grid is not meant to replace flexbox insted, they work perfectly together. need a 1D layout? use flexbox , need a 2D layout ? use CSS Grid.
+
+### CSS TERMINOLIGY
+- Grid container
+- grid Items
+- row axis
+- column axis 
+- unlike css -flex - we can't change rows into colums
+
+- grid lines 
+- grid cells
+- gutters
+- grid tracks/column
+  
+
