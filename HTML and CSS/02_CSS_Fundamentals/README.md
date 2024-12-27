@@ -524,4 +524,34 @@ to overwrite justify-items/align-items for single items
 
 ### sizing grid columns and rows
 using new unit called fractional - instead of using px - it will occupy all the remaining space in the given container .
+- we can use `auto` keyword
+- intead of writing multiple colums we can use `repeat(3,1fr)`
 
+- implicit rows
+- explicit rows - which was defined
+
+### placing and spanning grid items 
+- select the container you want to 
+
+```
+grid-column: 2/3;
+grid-row : 1/2 ;
+```
+
+you can use `grid-column : 1/ span 2;`  - this process is called sapaning
+
+you can use negative indexing as well
+
+
+### Aligning grid items and tracks
+- Aligning tracks inside the container  : Distributing empty space
+```
+justify-content :center;
+align-content : center;
+```
+
+- Aligning items Inside the cells : Moving items around inside cells
+
+```
+align-items : center;
+justify-items : cemter;

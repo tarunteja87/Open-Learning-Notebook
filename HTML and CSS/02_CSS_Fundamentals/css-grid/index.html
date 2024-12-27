@@ -9,15 +9,21 @@
         {
             display: grid;
             background-color: grey;
-            grid-template-columns: 1fr 1fr 1fr; 
-            grid-template-rows: 50px ;
-            column-gap: 5px;
-            row-gap: 5px;
+            grid-template-columns: repeat(3,1fr); 
+            grid-template-rows: repeat(2,1fr) ;
+            column-gap: 10px;
+            row-gap: 10px;
+            height: 400px;
         }
         .block
         {
             background-color: red;
            
+        }
+        .item_1
+        {
+            grid-column: 2 / 4;
+            grid-row : 2 / 3;
         }
 
     </style>
