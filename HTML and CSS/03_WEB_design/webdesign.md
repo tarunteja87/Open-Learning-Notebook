@@ -43,6 +43,70 @@
 
 
 ## Typography
+- Typography is the art and technique of arranging type to make written language legible, readable and appealing when displayed
+### Serif vs san-serif
+- serifs (having some tails called serifs)
+- creates a traditional classic look and feel
+- conveys trustworthiness
+- Good for long text
+- sans -serif ( will not have any type face)
+- looks very clean and simple
+- Modern look and feel
+- Easier to choose for begineer designer
+(sans-serifs is good for beginers)
 
+### Rules for Typhography (USE GOOD TYPEFACES)
+- use only good and popular typefaces and play it safe.
+- **INTER** , **Open sans** , **Roboto** , **Montserray** , **Work sans** , **Lato** (SANS-SERIF)
+- **Merriweather , Aleo , Playfair Display , Cormorant , Cardo , Lora**
+- its okay to use just one typrface per page ! if you want more limit to 2.
+### Font sizes and weights
+- When choosing font-size, **Limit choices!** Use a **Type scale tool** or other **Pre -defined range**
+- Use a font size between **16px and 32px** for **Normal text**
+- For **Long text** (like a blog post), try a size of 20px or even bigger
+- For Headings , you can go really big (50px+) and blod (600+), depending on personality.
+- For any text , don't use a font weight under 400(regular)
+### Create a Good Reading experience
+- use less than 75 chars per line
+- For normal-sized text , use a line height between 1.5 and 2. For big text , go below 1.5
+ - smaller or longer the text , the larger the line height needs to be
+- Decrease letter spacing in headlines , if it looks unnatural
+- Experiment with all caps for short titles. Make them small and bold and increase letter-spacing
+- Usually , don't justify text
+- don't center long text blocks . small blocks are fine.
+- **External fonts need to be place before the CSS link**
+```
+font-family :'Inter', sans-serif;
+```
+[typescale.com](typescale.com)
 
+## Color
+### Choosing the right color 
+Make the main color match your website personality : colors convey meaning.
+- **RED** draws a lot of attention , and symbolizes power, passion, and excitement.
+- **Orange** is less aggressive , and conveys happiness, cheerfulness, and creativity.
+- **Yellow** Means joy , brightness, and intelligence.
+- **Greens** represents harmony, nature , growth and health.
+- **Blues** is associated with peace, trustworthiness, and professionalism.
+- **Purple** Conveys wealth, wisdom, and magic.
+- **Pink** represents romance, care, and affection.
+- **Brown** is associated with nature, durability and comfort.
+- **Black** symbolize power, elegance and minimalism, but also grief and sorrow.
 
+Use a good color tone , Don't choose a random tone or CSS named colors  
+- **Open color**
+- **tailwindcss**
+- **Flat ui colors 2**
+### Establish a color system
+- You need at least two types of colors in your **colour palette** : a **main color** and a **grey color**
+- Accent color - to choose accent color (**accent colors**) tool (**palleton.com**) (**COOLORS**)
+- for diversity , create lighter and darker versions (tints and shades)  - tints means lighter color - shades means darker colors (**Tint&shadegenerator**)
+- Use colors to add interesting accents or make entire components or sections stand out
+- you can use color strategicallly in images and illustrations
+
+### Relation Between COLOR and TYPOGRAPHY
+- on dark colored backgrounds , try to use a tint of the background ("lighter version") for text
+- Text shouls usually not be completely black . Lighten if up it looks heavy and uninviting
+- Dont make text too light ! use a tool to check contrast between text and backgriund colors
+ - contrast ratio needs to be at least 4.5:1 for normal text and 3:1 for largr tet(18px+) (tool : **Coolors**)
+ 
