@@ -108,5 +108,46 @@ Use a good color tone , Don't choose a random tone or CSS named colors
 - on dark colored backgrounds , try to use a tint of the background ("lighter version") for text
 - Text shouls usually not be completely black . Lighten if up it looks heavy and uninviting
 - Dont make text too light ! use a tool to check contrast between text and backgriund colors
- - contrast ratio needs to be at least 4.5:1 for normal text and 3:1 for largr tet(18px+) (tool : **Coolors**)
+- contrast ratio needs to be at least 4.5:1 for normal text and 3:1 for largr tet(18px+) (tool : **Coolors**)
  
+## Images and illustrations
+
+### Use Good Images
+- Different types of images :**Product photos, storytelling photos, illustrations, patterns**
+- Use images to support your websites **message and story**. so only use **relevant images**.
+- Prefer **Original images** . If possible , use **original-looking** stock images(not generic ones)
+- Tool box (**Unsplash , Pexels , DrawKit, unDraw**)
+
+### Use images well
+- Try to show **Real people** to trigger users emotions
+- If necessary , **crop images** to fit your message
+- Experiment **combining** photos, illustrations and patterns 
+
+### Handrling Text on Images
+- **Method 1:** Darkrn or briten images (completely or partially , using a gradient)
+- **Method 2:** Position text into neutral image area
+- **Method 3:** Put text in a box
+
+### Some technical details 
+- To Accounr for High resolutioin screens , amke image dimensions **2x as big** as their displayed size
+- **Compress images** for a lower file size and better performance
+- tools for image compression (**Unsplash , pexels , drawkit , undraw and Sqoosh(recomended)**)
+- when using multiple images side-by-side , make sure they have exact same dimensions
+
+
+## icons
+### use good icons
+- Use a good icon pack , there are tons of free and paid icon packs 
+- tools (**ionicons , phosphor icons, icons8**)
+- only use one icon pack , **Dont mix** icons from different icon packs
+- Use **SVG** icons or icon fonts . Dont use bitmap images formats(.jpg and .png)
+- Adjust to website personality **Roundness, weight and filled/outlined** depend on typography.
+### When we can use icons
+- use icons to **provide visual assistance** to text.
+- use icons for **Product feature blocks**
+- use icons **associated with actions** and **label them** (unless no space or icon is 100% clear)
+- use icons **as bullet points**
+### Use icons well
+- To keep icons neutral , **use same color as text** . To draw more attention , **USe different color**
+- Dont confuse your users : icons need to make sense and fit the text or action.
+- Dont make icons larger than what they **Were designed for** ,if needed **Enclose them into shape**.
