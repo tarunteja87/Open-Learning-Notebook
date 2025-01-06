@@ -151,3 +151,5 @@ Use a good color tone , Don't choose a random tone or CSS named colors
 - To keep icons neutral , **use same color as text** . To draw more attention , **USe different color**
 - Dont confuse your users : icons need to make sense and fit the text or action.
 - Dont make icons larger than what they **Were designed for** ,if needed **Enclose them into shape**.
+
+## Shadows
