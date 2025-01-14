@@ -22,3 +22,17 @@
 - color highligh
 - Auto rename tag
 - live server
+
+# need to write notes 
+- Box Shadow
+- Box-sizing
+- General reset (*)
+
+## To make the header height to enire height of the view port
+- view port is visible area of a page 
+- `height:100% ` wont work
+- by using new unit called `vh`  
+```
+height:100vh;
+```
+- `vw` is for view port width
