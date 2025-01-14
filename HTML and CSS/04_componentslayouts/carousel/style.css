@@ -1,0 +1,79 @@
+*
+{
+    margin:0;
+    padding: 0;
+}
+img
+{
+    height: 200px;
+    border-radius: 8px;
+    transform: scale(1.5);
+}
+.carisol
+{
+    background-color: #087f5b;
+    width: 800px;
+    margin: 100px auto;
+    border-radius: 8px;
+    color: white;
+    padding: 32px;
+    display: flex;
+    padding-left: 86px;
+    gap :86px;
+    align-items: center;
+    position: relative;
+}
+
+p
+{
+    font-family: sans-serif;
+    line-height: 1.5;
+}
+.bun{
+    border: none;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 50%;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.size-6
+{
+    height: 24px;
+    width: 24px;
+}
+
+.btn-left
+{
+    left: 0;
+    transform: translate(-50%,-50%);
+    
+}
+
+.btn-right
+{
+    right: 0;
+    transform: translate(50%,-50%);
+}
+.dots
+{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,32px);
+    bottom: 0;
+    display: flex;
+    gap: 10px;
+}
+.dot
+{
+    background-color: white;
+    width: 10px;
+    height: 10px;
+    border:solid 1px #087f5b;
+    border-radius: 50px;
+    cursor: pointer;
+}

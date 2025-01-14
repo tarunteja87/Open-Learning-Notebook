@@ -1,0 +1,65 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.accordance
+{
+    margin: 0 auto;
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.acc-element
+{
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    column-gap: 20px;
+    row-gap: 20px;
+    align-items: center;
+    margin: 10px;
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.186);
+    padding: 20px;
+}
+
+.size-6
+{
+    width: 24px;
+    height: 24px;
+    color: #03C03C;
+    stroke-width: 3px;
+}
+.acc-select  .acc-num
+{
+    font-weight: 500;
+    font-size: 24px;
+    color: #03C03C;
+}
+.acc-content
+{
+    grid-column: 2;
+    display: none;
+    
+}
+
+.acc-select  
+{
+    border-top:5px solid #03C03C;
+
+}
+
+.acc-select .acc-content
+{
+    display: block;
+}
+
+h3
+{
+    font-family: sans-serif;
+    color: #03C03C;
+    font-size: 24px;
+    
+}
