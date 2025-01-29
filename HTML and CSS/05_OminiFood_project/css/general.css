@@ -1,0 +1,31 @@
+@media(max-width: 1200px)
+{
+    html{
+        font-size: 56%;
+    }
+}
+
+@media(max-width: 950px)
+{
+    html{
+        font-size: 46%;
+    }
+}
+
+@media(max-width: 750px)
+{
+    .hero{
+        font-size: 46%;
+        grid-template-columns: 1fr;
+        align-items: center;
+        justify-items: center;
+    }
+    .hero-img-box
+    {   
+        display: flex;
+        width: 70%;
+        grid-row: 1/2;
+        justify-self: center;
+    }
+}
+
