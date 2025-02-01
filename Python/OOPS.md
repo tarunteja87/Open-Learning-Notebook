@@ -79,5 +79,25 @@ class Backpack:
 - classes define the state and the behaviour of the objects in a **generic** way.
 - Its not specific. The code in the class has to work for **any** instance of the class.
 - **self** is a generic way of refering to the current instance of the class.
-- 
+- **seff** is skipped in the arguments list when we create an instance
 
+### None  NoneType
+- **None** is a special value that you can use to represent the absence of a value in your program. Its the only value of the **NoneType** data type.
+- its commonly used to define a null variable or object.
+- When a function doesn't explicitly retuen a value, it implicitly returns **None**.
+- You can use **None** value in comparisons and expressions with the **is** and **is_not** operators.
+
+### accessing the instance attribute
+
+#### Dot Notation
+- Syntax used to access the members of an object (its variables and methods).
+
+### Default Arguments
+
+- Defaults values assigned to parameters when their corresponding arguments are omitted.
+- They must be the last parameters in the list of parameters.
+
+
+### Modif the value of instance Attribute
+- object.attribute = new_value
+- self.attribute = new_value
