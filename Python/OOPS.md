@@ -101,3 +101,73 @@ class Backpack:
 ### Modif the value of instance Attribute
 - object.attribute = new_value
 - self.attribute = new_value
+
+### class Attributes in Python
+- Class att is an att  of the class - which doesnot belongs to any particular instance
+- all instance of the class have access to this attribute.
+- They share the **same value** , so any chnages made to this value affects all instance.
+
+```
+class className:
+    # Class Attributes
+    #__init__()
+    # Methods
+```
+#### When to use class attribute
+- Class att are helpful when you need to share a value across all the instance of a class.
+
+In Python there is a naming convention of writing variables that should act like constants in Uppercase to signal that their values should not be modified. 
+
+#### How to define class attributes
+
+`class_attribute = value`
+
+####  How to access class attribute
+- `className.classAttribute`  - outside and inside of the class  
+
+#### modify class att
+- `className.classAttribute = 'value'`
+
+## Encapsulation and Abstraction
+
+### Encapsulation
+- Bundling of data and methods that act on that data into a sigle unit (class)
+- Prevents direct access to the attributes in order to avoid making potentially problematic changes to the state.
+- We can see only public member of the class
+- What the developer of the class chose to make public.
+- Getters + setters 
+- Public + Non-Public
+
+### Abstraction
+- Show only the essential attributes and hide unnecessary details from the user.
+- Hide the complexity from the user
+
+
+Class has two main parts  - interface and implementation
+- interface is the visible part of the class that the program can inteact with.
+- The internal part of the class with the code that performs the functionality.
+
+
+Abstraction also allows us to abstract out common parts of the code to **avoid repetition**
+
+
+## Public vs Non public  Attributes
+- A Public attribute that can be accessed and modified directly without access restrictions.
+
+```
+class Car:
+    def __init__ (Self, brand, model, year):
+        slef.brand = brand
+        self.model = model
+        self.year  = year
+```
+
+- Non public attribute that shouldn't be accessed or modified outside of the class.
+    - non public - naming convention -  _attribute
+                 - Changing name     -  __attribute
+         (more difficult to access)    (Only for special classes)
+             name mangling
+
+`self._attribute` naming convention
+`self.__attribute` name mangling
+
