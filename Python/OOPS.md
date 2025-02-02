@@ -171,3 +171,81 @@ class Car:
 `self._attribute` naming convention
 `self.__attribute` name mangling
 
+
+### Name mangling in Python
+-  __attribute 
+- Name Mangling is a process by which the name of the attribute is modified.
+- _class__attribute      object._class__attribute
+
+
+## Getters , Setters and properties
+### Getters
+- get_+attribute
+
+### Setters
+- set_+attribute
+
+### Properties the pythonic way
+- `property_name = property(getter,setter)
+
+`@property`
+- Decorator is a function that takes a function and extends its behaviour without explicitly modifying it.
+- Cleaner and more compact.
+- Easier to read and undrstand.
+- Avoids calling property() directly.
+- we will reuse tyhe name of the property.
+
+``` class Movie:
+
+        def __init__(self,title,rating):
+            self.title = title
+            self._rating = rating
+        
+        @property
+        def rating(self):
+            return self._rating
+        
+        @rating.setter
+        def rating(self, new_rating):
+            return self._rating = new_rating
+
+```
+A decorator function is a function that takes another function as argument to extend the functionality of the second function without actually modifying it.
+```
+def decorator_function(arg_function):
+    def wrapper_function():
+        # Code to extend the functionality 
+        arg_function()
+        # Code to extend the functionality
+    return wrapper_function
+```
+
+Notice how we are defining the decorator function:
+
+This function has a wrapper function inside it (wrapper_function()).
+
+The function that was taken as argument (arg_function()) is called and extended inside the wrapper function.
+
+The wrapper function is returned by the decorator function.
+
+#### @<property_name>.deleter
+- This is the deleter, the method that deletes the property of a particular instance.
+
+```
+class Bus:
+ 
+    def __init__(self, color):
+        self._color = color
+ 
+    @property
+    def color(self):
+        return self._color
+ 
+    @color.setter
+    def color(self, new_color):
+        self._color = new_color
+ 
+    @color.deleter
+    def color(self):
+        del self._color
+```
